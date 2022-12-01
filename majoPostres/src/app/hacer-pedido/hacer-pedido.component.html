@@ -1,93 +1,39 @@
 <div  class="textodiv cuerpo" >
   <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
   <div>
-    <h3>Realiza tu pedido</h3>
+    <h3>Habilidades técnicas</h3>
   
     <mat-grid-list cols="6" rowHeight="100px" >
       <mat-grid-tile  colspan="1">
     
       </mat-grid-tile>
-      <mat-grid-tile  colspan="1" class="fondoLabels">
-    
-        <label for="email" class="letraMasPeq">
-          Email
+      <mat-grid-tile  colspan="2" class="fondoLabels">
+        <label class="letraMasPeq" for="comentarios">
+          CrediPyme
         </label>
+    
+      </mat-grid-tile>
+      <mat-grid-tile  colspan="2" class="fondoLabels">
+        <label class="letraMasPeq" for="comentarios">
+          Consumo y Libranza
+        </label>
+    
       </mat-grid-tile>
       
      
-        <mat-grid-tile colspan="4">
-          <div class="fondoDatos">
-            <input id="email" type="text" placeholder="Email" formControlName="email">
-          </div>
-          
-        </mat-grid-tile>
-      
-        <mat-grid-tile  colspan="1">
-    
-        </mat-grid-tile>
-      <mat-grid-tile colspan="1" class="fondoLabels">
-      <label class="letraMasPeq" for="tipoPostre">
-        Tipo de Postre
-      </label>
-      
-      </mat-grid-tile>
-      <div  fxLayout="row" >
-        <mat-grid-tile colspan="4" class="letraMasPeq">
-          <div class="fondoDatos" >
-            <input type="radio" value="torta" name="tipoPostre" formControlName="tipoPostre"  > Tortas o Cupcakes
-            <input type="radio" value="galleta" name="tipoPostre" formControlName="tipoPostre" > Galletas
-            <input type="radio" value="otro" name="tipoPostre"  formControlName="tipoPostre"  > Otro
-
-            <select class="form-select" name="NAME" >
-             
-              <option value="" disabled selected>Selecciona una opción</option>
-              <option value="Donas">Donas</option>
-              <option value="Pie">Pie</option>
-              <option value="Brownie">Brownie</option>
-            </select>
-          </div>
-   
-        </mat-grid-tile>
-      </div>
       <mat-grid-tile  colspan="1">
     
       </mat-grid-tile>
-      <mat-grid-tile colspan="1" class="fondoLabels">
-        <label for="porciones" class="letraMasPeq">
-          Porciones
-        </label>
+      <mat-grid-tile  colspan="1">
+    
       </mat-grid-tile>
-      <mat-grid-tile colspan="4">
-        <div class="fondoDatos">
-          <input   placeholder="Numero porciones" type="number" id="porciones"  formControlName="porciones">
+      <mat-grid-tile rowspan="2" colspan="2">
+        <div>estas son mis habilidades tecnicas:
+          Pruebas automatizadas con Cucumber y Screenplay. 
         </div>
-        
-  
-      </mat-grid-tile>
-      <mat-grid-tile  colspan="1">
-    
-      </mat-grid-tile>
-      <mat-grid-tile colspan="2" class="fondoLabels">
-        <label class="letraMasPeq" for="comentarios">
-          Comentarios Adicionales
-        </label>
-      </mat-grid-tile>
-      <mat-grid-tile colspan="2" class="fondoLabels" >
-        <label class="letraMasPeq" for="imagen">
-          Imagen de referencia
-        </label>
-      </mat-grid-tile>
-      <mat-grid-tile  colspan="1">
-    
-      </mat-grid-tile>
-      <mat-grid-tile  colspan="1">
-    
       </mat-grid-tile>
       <mat-grid-tile rowspan="2" colspan="2">
-        <textarea    placeholder="Escribe aqui" rows=12 id="comentarios"  formControlName="comentarios"> </textarea>
-      </mat-grid-tile>
-      <mat-grid-tile rowspan="2" colspan="2">
-        <input id="imagen" type="text" formControlName="imagen">
+        <div>estas son mis habilidades tecnicas</div>
       </mat-grid-tile>
      
   
@@ -96,7 +42,7 @@
   
   </div>
   <div class="centrar">
-    <button  class="botonEnviar" type="submit">Enviar</button>
+    <button  class="botonEnviar" type="submit">Regresar</button>
   </div>
 </form>
 
