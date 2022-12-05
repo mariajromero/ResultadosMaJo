@@ -3,14 +3,14 @@
 @import 'variables';
 @import '../node_modules/font-awesome/scss/font-awesome';
 $prussian-blue: rgba(11, 57, 84, 1);
-$medium-violet-red: rgba(185, 19, 114, 1);
-$kobi: rgba(221, 154, 194, 1);
+$medium-violet-red:#CEB1BE;
+$kobi:#B97375;
 $powder-blue: rgba(187, 230, 228, 1);
 $star-command-blue: rgba(34, 116, 165, 1);
 .header{
     background-color:$medium-violet-red;
-    font-family: 'Style Script';
-    color:$powder-blue;
+    font-family: 'Kalam';
+    color:$prussian-blue;
 }
 .footer{
     background-color: $kobi;
@@ -27,7 +27,7 @@ $star-command-blue: rgba(34, 116, 165, 1);
 .btn-twitter{color:#fff!important;background-color:#55acee!important;}
 .btn-mail{color:#fff!important;background-color:#512DA8!important;}
 .titulo{
-    font-family: 'Style Script', cursive;
+    font-family: 'Kalam', cursive;
 }
 .centro{
     text-align: center;
@@ -108,7 +108,7 @@ $star-command-blue: rgba(34, 116, 165, 1);
 }
 .imagenFondo::before{
     content: "";
-    background-image: url("src/assets/images/banner.jpeg");
+    background-image: url("src/assets/images/banner.jpg");
     background-size: cover;
     position: absolute;
     top: 0px;

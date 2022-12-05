@@ -3,17 +3,20 @@
   <div>
     <h3>Habilidades técnicas</h3>
   
-    <mat-grid-list cols="6" rowHeight="100px" >
+    <mat-grid-list cols="7" rowHeight="100px" >
       <mat-grid-tile  colspan="1">
     
       </mat-grid-tile>
-      <mat-grid-tile  colspan="2" class="fondoLabels">
+      <mat-grid-tile  colspan="2" class="fondoLabels"  >
         <label class="letraMasPeq" for="comentarios">
           CrediPyme
         </label>
     
       </mat-grid-tile>
-      <mat-grid-tile  colspan="2" class="fondoLabels">
+      <mat-grid-tile  colspan="1">
+    
+      </mat-grid-tile>
+      <mat-grid-tile  colspan="2" class="fondoLabels" >
         <label class="letraMasPeq" for="comentarios">
           Consumo y Libranza
         </label>
@@ -27,13 +30,50 @@
       <mat-grid-tile  colspan="1">
     
       </mat-grid-tile>
-      <mat-grid-tile rowspan="2" colspan="2">
-        <div>estas son mis habilidades tecnicas:
-          Pruebas automatizadas con Cucumber y Screenplay. 
+      <mat-grid-tile rowspan="6" colspan="2" > 
+        <div>
+          <ul>
+            <li>
+              Pruebas automatizadas con Cucumber y Screenplay en desktop y mobile (android). 
+            </li>
+            <li>
+              Desarrollo de un microservicio utilizando aruitectura limpia y programación reactiva.
+
+            </li>
+            <li>
+              Pruebas de Karate
+            </li>
+          </ul>
+          
         </div>
       </mat-grid-tile>
-      <mat-grid-tile rowspan="2" colspan="2">
-        <div>estas son mis habilidades tecnicas</div>
+      <mat-grid-tile  colspan="1">
+    
+      </mat-grid-tile>
+      <mat-grid-tile rowspan="6" colspan="2" >
+        <div>
+          <ul>
+            <li>
+              Pruebas automatizadas en iphone
+            </li>
+            <li>
+              Adecuación de pipelines
+            </li>
+            <li>
+              Ejecucuión de pruebas de performance
+
+            </li>
+            <li>
+              Curso de Cloud Practitioner
+            </li>
+            <li>
+              Curso de Kubernetes
+            </li>
+            <li>
+              Autoestudio de DDD
+            </li>
+          </ul>
+        </div>
       </mat-grid-tile>
      
   
@@ -42,7 +82,7 @@
   
   </div>
   <div class="centrar">
-    <button  class="botonEnviar" type="submit">Regresar</button>
+    <button  class="botonEnviar" type="submit" routerLink='/home'>Regresar</button>
   </div>
 </form>
 
