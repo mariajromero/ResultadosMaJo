@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\maria\Desktop\majoResultados\src\styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! C:\Users\maria\Desktop\majoResultados\ResultadosMaJo\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })

@@ -461,7 +461,7 @@ var HeaderComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div fxFlex >\r\n  <div>\r\n    <div class=\"imagenFondo \">\r\n      <p class=\"letraHome\" >Este año 2022 tuve la oportunidad de estar en 2 proyectos donde adquirí nuevos conocimientos y creci personal y profesionalmente</p>\r\n    \r\n    \r\n    </div>\r\n    \r\n\r\n  </div>\r\n  <div class=\"cuerpo\">\r\n    <div class=\"linea\"  fxLayout=\"row\" fxLayoutAlign=\"space-evenly center\">\r\n      <div >\r\n        <h1 class=\"titulo letraKobi titulodiv\">Habilidades técnicas</h1>\r\n        <h2 class=\"textodiv\">Esto incluye cursos y funciones que realicé en los equipos</h2>\r\n        <a class=\"letraStar linkdiv\" routerLink='/hacerPedido'>Ver más></a>\r\n      </div>\r\n      <div>\r\n        <img src=\"src\\assets\\images\\tenicas.png\" class=\"imagendiv\">\r\n      </div>\r\n    </div>\r\n    <div class=\"linea\"  fxLayout=\"row\" fxLayoutAlign=\"space-evenly center\">\r\n      <div>\r\n        <img src=\"src\\assets\\images\\blandas.png\" class=\"imagendiv\">\r\n      </div>\r\n      <div >\r\n        <h1 class=\"titulo letraKobi titulodiv\">Habilidades blandas</h1>\r\n        <h2 class=\"textodiv\">Habilidades interpesonales y comunicativas, entre otras</h2>\r\n        <a class=\"letraStar linkdiv\" routerLink=\"/verMas\">Ver más></a>\r\n      </div>\r\n      \r\n    </div>\r\n    \r\n    \r\n  </div>\r\n\r\n</div>\r\n\r\n"
+module.exports = "<div fxFlex >\r\n  <div>\r\n    <div class=\"imagenFondo \">\r\n      <p class=\"letraHome\" >Este año 2022 tuve la oportunidad de estar en 2 proyectos donde adquirí nuevos conocimientos y creci personal y profesionalmente</p>\r\n    \r\n    \r\n    </div>\r\n    \r\n\r\n  </div>\r\n  <div class=\"cuerpo\">\r\n    <div class=\"linea\"  fxLayout=\"row\" fxLayoutAlign=\"space-evenly center\">\r\n      <div >\r\n        <h1 class=\"titulo letraKobi titulodiv\">Habilidades técnicas</h1>\r\n        <h2 class=\"textodiv\">Esto incluye cursos y funciones que realicé en los equipos</h2>\r\n        <a class=\"letraStar linkdiv\" routerLink='/hacerPedido'>Ver más></a>\r\n      </div>\r\n      <div>\r\n        <img src=\"https://www.formacionyentrenamiento.com/wp-content/uploads/2020/12/f1Mesa-de-trabajo-2-1024x1024.png\" class=\"imagendiv\">\r\n      </div>\r\n    </div>\r\n    <div class=\"linea\"  fxLayout=\"row\" fxLayoutAlign=\"space-evenly center\">\r\n      <div>\r\n        <img src=\"https://siemprevenezuelaweb.com/wp-content/uploads/2022/08/Que-son-las-habilidades-blandas-y-como-te-pueden-ayudar-a-encontrar-un-mejor-empleo-web.jpg\" class=\"imagendiv\">\r\n      </div>\r\n      <div >\r\n        <h1 class=\"titulo letraKobi titulodiv\">Habilidades blandas</h1>\r\n        <h2 class=\"textodiv\">Habilidades interpesonales y comunicativas, entre otras</h2>\r\n        <a class=\"letraStar linkdiv\" routerLink=\"/verMas\">Ver más></a>\r\n      </div>\r\n      \r\n    </div>\r\n    \r\n    \r\n  </div>\r\n\r\n</div>\r\n\r\n"
 
 /***/ }),
 
@@ -642,7 +642,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\maria\Desktop\majoResultados\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\maria\Desktop\majoResultados\ResultadosMaJo\src\main.ts */"./src/main.ts");
 
 
 /***/ })
